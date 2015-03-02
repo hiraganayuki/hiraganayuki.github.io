@@ -205,7 +205,6 @@
 			var slidesShowing = getNumberSlidesShowing();
 			// make modifications to the viewport (.bx-viewport)
 			slider.viewport.css({
-				height: '300px',
 				width: '100%',
 				overflow: 'hidden',
 				position: 'relative'

@@ -35,12 +35,8 @@
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
 	border:  5px solid #fff;
-	left: -5px;*/
-	height: 300px;
-	overflow: hidden;
-	display: table-cell;
-	vertical-align: middle;
-	background: #fff;
+	left: -5px;
+	background: #fff;*/
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -135,6 +131,12 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
+	display: none;
+}
+
+/*追加*/
+.bx-wrapper:hover .bx-controls-direction a {
+	display: block;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
