@@ -20,9 +20,10 @@
 	padding: 0;
 	*zoom: 1;
 	max-height: 300px;
+	overflow: hidden;
 }
 
-.bx-wrapper img {
+.bx-wrapper div {
 	max-width: 100%;
 	display: block;
 }
