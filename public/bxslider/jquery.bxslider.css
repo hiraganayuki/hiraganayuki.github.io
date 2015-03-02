@@ -139,14 +139,6 @@
 	display: block;
 }
 
-.bx-wrapper:hover .bx-controls-direction a{
-	-moz-transition: .3s;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    -ms-transition: .3s;
-    transition: .3s;
-}
-
 .bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
 }
