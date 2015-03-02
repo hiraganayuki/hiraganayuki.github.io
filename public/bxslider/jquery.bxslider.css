@@ -135,11 +135,11 @@
 }
 
 /*追加*/
-.bx-wrapper: .bx-controls-direction:hover a {
+.bx-wrapper .bx-controls-direction:hover a {
 	display: block;
 }
 
-.bx-wrapper .bx-controls-direction a{
+.bx-wrapper .bx-controls-direction:hover a{
 	-moz-transition: .3s;
     -webkit-transition: .3s;
     -o-transition: .3s;
