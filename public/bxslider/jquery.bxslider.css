@@ -131,7 +131,7 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
-	display: none;
+	display: none;/*追加*/
 }
 
 /*追加*/
