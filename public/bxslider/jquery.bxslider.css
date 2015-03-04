@@ -209,3 +209,72 @@
 	font-size: .85em;
 	padding: 10px;
 }
+
+
+/*カスタマイズ用追記CSS Start*/
+
+div.photosetslide {
+    width:620px;
+	display:block;
+	margin:40px auto;
+}
+
+div.photosetslide .bx-wrapper {
+	margin:0 auto 15px;/*メインスライダーとサムネイルの間の余白を変更*/
+}
+
+ul.bxslider01 li {
+	display:block;
+	width:620px;/*メインスライダーの横幅*/
+	height:400px;/*メインスライダーの縦幅*/
+}
+
+ul.bxslider01 li img{
+	display:block;
+	width:620px;
+	height:auto;
+}
+
+ul.bxslider02 li a {
+	display:block;
+	width:90px;/*サムネイルの横幅*/
+	height:60px;/*サムネイルの縦幅*/
+}
+
+ul.bxslider02 li a img{
+	display:block;
+	width:90px;/*サムネイルの横幅*/
+	height:auto;/*サムネイルの縦幅*/
+}
+
+div.controlWrap {
+	width:620px;
+	display:block;
+	position:relative;
+	margin:0 auto;
+}
+
+div.controlWrap p#PrevIcon a{
+	display:block;
+	width:13px;/*オリジナルの矢印アイコン画像の横幅を設定しましょう*/
+	height:19px;/*オリジナルの矢印アイコン画像の縦幅を設定しましょう*/
+	position:absolute;
+	background:url(../img/icon-arrow-prev01.jpg) left center no-repeat;/*オリジナルの矢印アイコンを設定しています*/
+	color:#fff;
+	top:20px;
+	left:20px;
+	text-indent:-9999px;
+}
+
+div.controlWrap p#NextIcon a{
+	display:block;
+	width:13px;/*オリジナルの矢印アイコン画像の横幅を設定しましょう*/
+	height:19px;/*オリジナルの矢印アイコン画像の縦幅を設定しましょう*/
+	position:absolute;
+	background:url(../img/icon-arrow-next01.jpg) left center no-repeat;/*オリジナルの矢印アイコンを設定しています*/
+	color:#fff;
+	top:20px;
+	right:20px;
+	text-indent:-9999px;
+}
+/*カスタマイズ用追記CSS End*/
